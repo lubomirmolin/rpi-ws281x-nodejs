@@ -15,7 +15,7 @@ ws2811/ws2812 LEDs. **this will only run on the Raspberry Pi.**
 
 this module is available via npm:
 
-    npm install rpi-ws281x-nodejs
+    npm i @bartando/rpi-ws281x-nodejs --save
 
 if you prefer installing from source:
 

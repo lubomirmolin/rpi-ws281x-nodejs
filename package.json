@@ -1,17 +1,30 @@
 {
-  "name": "rpi-ws281x-nodejs",
+  "name": "@bartando/rpi-ws281x-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Disclaimer:** This library is heavily inspired by [beyondscreen/node-rpi-ws281x-native](https://github.com/beyondscreen/node-rpi-ws281x-native)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node-gyp rebuild"
   },
-  "author": "",
+  "author": "bartando",
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
     "nan": "^2.14.0",
     "node-addon-api": "^1.7.1"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lubomirmolin/rpi-ws281x-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lubomirmolin/rpi-ws281x-nodejs/issues"
+  },
+  "homepage": "https://github.com/lubomirmolin/rpi-ws281x-nodejs#readme"
 }
