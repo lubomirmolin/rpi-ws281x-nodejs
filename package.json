@@ -1,0 +1,17 @@
+{
+  "name": "rpi-ws281x-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.14.0",
+    "node-addon-api": "^1.7.1"
+  }
+}
