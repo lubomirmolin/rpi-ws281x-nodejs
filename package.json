@@ -1,7 +1,7 @@
 {
-  "name": "@bartando/rpi-ws281x-nodejs",
-  "version": "1.0.1",
-  "description": "**Disclaimer:** This library is heavily inspired by [beyondscreen/node-rpi-ws281x-native](https://github.com/beyondscreen/node-rpi-ws281x-native)",
+  "name": "@bartando/rpi-ws281x-neopixel",
+  "version": "1.0.0",
+  "description": "Raspberry Pi ws281x library for Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,6 @@
   },
   "author": "bartando",
   "license": "MIT",
-  "gypfile": true,
   "dependencies": {
     "nan": "^2.14.0",
     "node-addon-api": "^1.7.1"

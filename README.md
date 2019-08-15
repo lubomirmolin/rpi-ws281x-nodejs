@@ -15,7 +15,7 @@ ws2811/ws2812 LEDs. **this will only run on the Raspberry Pi.**
 
 this module is available via npm:
 
-    npm i @bartando/rpi-ws281x-nodejs --save
+    npm i @bartando/rpi-ws281x-neopixel --save
 
 if you prefer installing from source:
 
